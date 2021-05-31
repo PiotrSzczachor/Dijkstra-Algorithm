@@ -1,2 +1,4 @@
 # Teoria-Grafow-PS
 ---
+# OPIS ALGORYTMU:
+Algorytm Dijkstry jest algorytmem szukającym najkrótszej ścieżki w grafie, z wierzchołka startowego do wszystkich pozostałych wierzchołków. Sprawdza się on w przypadku problemów o dodatniej wadze krawędzi grafu (w przypadku grafów z krawędziami o wagach ujemnych, możemy korzystać z algorytmu Forda Bellmana). Algorytm Dijkstry jest wykorzystywany w sieciach komputerowych przy tak zwanym routingu. Polega to na wyznaczeniu jak najlepszej trasy i wysłaniu na nią pakietu danych w sieci komputerowej. Innym zastosowaniem algorytmu Dijkstry jest stosowanie go w celu wyznaczenia jak najkrótszej drogi do danej miejscowości z punktu startowego. W takiej sytuacji drogi traktujemy jako krawędzie o różnych wagach, natomiast skrzyżowania traktujemy jako węzły grafu. 
