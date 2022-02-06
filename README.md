@@ -1,4 +1,4 @@
-# Dijkstra Alghorithm
+# Dijkstra Algorithm
 
 ## Alghorithm description:
 
