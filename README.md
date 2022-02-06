@@ -1,7 +1,11 @@
-# Teoria-Grafow-PS
+# Dijkstra Alghorithm
 ---
-# OPIS ALGORYTMU:
-Algorytm Dijkstry jest algorytmem szukającym najkrótszej ścieżki w grafie, z wierzchołka startowego do wszystkich pozostałych wierzchołków. Sprawdza się on w przypadku problemów o dodatniej wadze krawędzi grafu (w przypadku grafów z krawędziami o wagach ujemnych, możemy korzystać z algorytmu Forda Bellmana). Algorytm Dijkstry jest wykorzystywany w sieciach komputerowych przy tak zwanym routingu. Polega to na wyznaczeniu jak najlepszej trasy i wysłaniu na nią pakietu danych w sieci komputerowej. Innym zastosowaniem algorytmu Dijkstry jest stosowanie go w celu wyznaczenia jak najkrótszej drogi do danej miejscowości z punktu startowego. W takiej sytuacji drogi traktujemy jako krawędzie o różnych wagach, natomiast skrzyżowania traktujemy jako węzły grafu. 
+# Alghorithm description:
+
+Dijkstra's algorithm is an algorithm that searches for the shortest path in the graph, from the start vertex to all other vertices. It works well in the case of problems with positive edge weighting (in the case of graphs with negative weight edges, we can use the Ford Bellman algorithm). The Dijkstra algorithm is used in computer networks for so-called routing. It consists in determining the best possible route and sending it a data packet in the computer network. Another application of the Dijkstra algorithm is to use it to determine the shortest possible route to a given town from the starting point. In such a situation, we treat roads as edges with different weights, and we treat intersections as graph nodes.
+
+![How Dijkstra Alghorithm works](http://cstwiki.wtb.tue.nl/images/Dijkstra_EMC3_2019.gif)
 ---
-# INSTRUKCJA:
-Aby skorzystać z powyższego algorytmu, input należy podać w pliku json jako macierz sąsiedztwa, w której zamiast wpisywac "1" w sytuacji gdy dane wierzchołki są połączone krawędzią wpisujemy wagę tej krawędzi. Na przyklad, w sytuacji, w ktorej wierzchołek 0 jest połączony z wierzchołkiem 2 krawędzią skierowaną o wadze 5, to w macierzy sąsiedztwa na pozycji "[0][2]" powinno się znaleźć "5". W przypadku gdy nie ma połączenia wpisujemy "0".
+
+# How to use it:
+In order to use the above algorithm, input should be entered in the json file as the adjacency matrix, in which instead of entering "1" in a situation where the vertices are connected by an edge, enter the weight of this edge. For example, in a situation where vertex 0 is connected to vertex 2 with a directed edge weighing 5, then in the adjacency matrix "5" should be placed at position "[0] [2]". If there is no connection, enter "0".
